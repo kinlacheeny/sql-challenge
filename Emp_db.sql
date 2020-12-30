@@ -7,7 +7,7 @@ CREATE TABLE departments (
 );
 
 SELECT * FROM departments;
---*************************************
+----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 -- Create TABLE for dept_emp
 --DROP TABLE dept_emp
 CREATE TABLE dept_emp(
@@ -18,7 +18,7 @@ CREATE TABLE dept_emp(
 );
 
 SELECT * FROM dept_emp;
---*************************************
+----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 -- Create table for dept_manager
 CREATE TABLE dept_manager(
 	dept_no VARCHAR NOT NULL, 
@@ -28,7 +28,7 @@ CREATE TABLE dept_manager(
 );
 
 SELECT * FROM dept_manager;
---*************************************
+----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 -- Create table for employees
 --DROP TABLE employees;
 CREATE TABLE employees (
@@ -44,7 +44,7 @@ CREATE TABLE employees (
 );
 
 SELECT * FROM employees;
---*********************************
+----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 -- Create table for salaries
 CREATE TABLE salaries (
 	emp_no INT NOT NULL, 
@@ -53,7 +53,7 @@ CREATE TABLE salaries (
 );
 
 SELECT * FROM salaries;
---*************************************
+----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 -- Create table for titles
 --DROP TABLE titles;
 CREATE TABLE titles (
@@ -63,7 +63,7 @@ CREATE TABLE titles (
 );
 
 SELECT * FROM titles;
-
+----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
 
 
 
